@@ -1,2 +1,5 @@
-var gpa = 12.3;
-console.log(gpa);
+// var valo=" আসকে আমার মন ভালো নেই ";
+for(i=0; i<=38; i++){
+    
+    console.log(  "আসকে আমার মন ভালো নেই ");
+}
