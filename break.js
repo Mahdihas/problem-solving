@@ -1,21 +1,25 @@
-// var allBooks=[100 , 80 , 90 , 70 , 120, 130 , 200, 250, 300,]
-// for(i=0; i<allBooks.length; i++){
-//     var price =allBooks[i];
-//    if(price >= 200){
-//         break
-//     }
-//     console.log(price);
-// }
-// for(var i=30;i<=86;i++){
-//     console.log(i);
-//     if(i === 44){
-//         break;
-//     }
-// }
-// var number=0;
-// for(i=30; i<=86; i++){
-//   console.log(i)
-//   if(i>43){
-//     break
-//   }
-// }
+
+//36. তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা। 
+var allBooks=[100 , 80 , 90 , 70 , 120, 130 , 200, 250, 300,]
+for(i=0; i<allBooks.length; i++){
+    var price =allBooks[i];
+   if(price >= 200){
+        break
+    }
+    console.log(price);
+}
+////////////////৩৫. একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও 
+
+for(var i=30;i<=86;i++){
+    console.log(i);
+    if(i === 44){
+        break;
+    }
+}
+var number=0;
+for(i=30; i<=86; i++){
+  console.log(i)
+  if(i>43){
+    break
+  }
+}
